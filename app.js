@@ -6,6 +6,6 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.get("/", (req, res) => {
   res.sendFile(__dirname + "/index.html");
 });
-app.listen(5500, () => {
+app.listen(process.env.PORT || 4000, () => {
   console.log("Server started on port 5500");
 });
