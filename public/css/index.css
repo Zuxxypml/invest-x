@@ -1,0 +1,31 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.navbar-brand{
+    font-size: 2.5rem;
+}
+#showcase{
+    background-color: #f3efec !important;
+}
+.nav-item{
+    font-size: 1.2rem;
+}
+#invest i{
+    display: none;
+}
+#invest .btn-light:hover{
+    background-color: #ffc107;
+}
+#invest .btn-light:hover i{
+    display: inline-block;
+    transition: 0.4s;
+}   
+#download, #questions,.hash{
+    background-color: #f9f5f2;
+}
+i{
+    color: white;
+}
+footer .btn{
+    color: white;
+}
